@@ -55,5 +55,7 @@ Napp::Application.routes.draw do
   #     resources :products
   #   end
   root 'places#index'
-  resources :places
+  resources :places do
+    resources :comments, :only => :create
+  end
 end
