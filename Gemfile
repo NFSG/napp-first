@@ -34,6 +34,8 @@ end
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'simple_form'
 gem 'devise'
+gem 'geocoder'
+gem "figaro"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
