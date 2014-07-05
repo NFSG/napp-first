@@ -58,4 +58,5 @@ Napp::Application.routes.draw do
   resources :places do
     resources :comments, :only => :create
   end
+    resources :users, :only => :show
 end
